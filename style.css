@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6, p {
   justify-content: space-between;
   align-items: center;
   background-color: #1F2937;
-  padding: 16px 24px;
+  padding: 16px 128px;
 }
 
 .logo {
@@ -50,8 +50,9 @@ h1, h2, h3, h4, h5, h6, p {
 .hero {
   display: flex;
   justify-content: space-between;
-  padding: 100px 24px;
+  gap: 24px;
   align-items: center;
+  padding: 100px 128px;
   background-color: #1F2937;
 }
 
@@ -59,6 +60,7 @@ h1, h2, h3, h4, h5, h6, p {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  width: 100%;
 }
 
 .hero h1 {
@@ -72,6 +74,15 @@ h1, h2, h3, h4, h5, h6, p {
   color: #e5e7eb;
 }
 
+.hero-img {
+  width: 100%;
+}
+
+.hero-img > img {
+  width: 100%;
+  height: auto;
+}
+
 .primary-button {
   background-color: #3882f6;
   color: #e5e7eb;
@@ -81,6 +92,28 @@ h1, h2, h3, h4, h5, h6, p {
   align-self: flex-start;
 }
 
+/* Quote section */
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 256px;
+  background-color: #e5e7eb;
+  align-items: flex-end;
+}
+
+.section-3 .quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.section-3 .speaker {
+  font-weight: 700;
+  color: #1f2937;
+}
+
 /* Footer */
 
 .footer {
@@ -88,7 +121,7 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: #1F2937;
   justify-content: center;
   align-items: center;
-  padding: 24px;
+  padding: 24px 128px;
 }
 
 .footer > p {
