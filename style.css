@@ -92,6 +92,38 @@ h1, h2, h3, h4, h5, h6, p {
   align-self: flex-start;
 }
 
+/* Gallery */
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 256px 128px 256px;
+  gap: 48px;
+}
+
+.section-2 h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.section-2 .four-col-row {
+  display: flex;
+  gap: 64px;
+}
+
+.section-2 .card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.section-2 .card img {
+  width: 100%;
+  height: auto;
+}
+
 /* Quote section */
 
 .section-3 {
@@ -114,6 +146,48 @@ h1, h2, h3, h4, h5, h6, p {
   color: #1f2937;
 }
 
+/* CTA */
+
+.section-4 {
+  display: flex;
+  padding: 100px 128px;
+}
+
+.cta {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 4px;
+  padding: 48px 128px;
+}
+
+.cta > .content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cta h4 {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.cta p {
+  color: #e5e7eb;
+}
+
+.secondary-button {
+  background: none;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 6px;
+  border-color: #FFF;
+  color: #FFF;
+  padding: 8px 24px;
+}
+
 /* Footer */
 
 .footer {
@@ -121,7 +195,7 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: #1F2937;
   justify-content: center;
   align-items: center;
-  padding: 24px 128px;
+  padding: 32px 128px;
 }
 
 .footer > p {
